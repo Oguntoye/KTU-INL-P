@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c90136ba.css",
+    "main.js": "/static/js/main.2547c2db.js",
+    "static/js/787.7bf2b23b.chunk.js": "/static/js/787.7bf2b23b.chunk.js",
+    "static/media/Lexend-VariableFont_wght.ttf": "/static/media/Lexend-VariableFont_wght.ca595aeaae636593c5fe.ttf",
+    "static/media/logo-circular.png": "/static/media/logo-circular.95d7d196e88a14d99a0d.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/landingbackground.jpg": "/static/media/landingbackground.c3184854536b5599edc0.jpg",
+    "index.html": "/index.html",
+    "main.c90136ba.css.map": "/static/css/main.c90136ba.css.map",
+    "main.2547c2db.js.map": "/static/js/main.2547c2db.js.map",
+    "787.7bf2b23b.chunk.js.map": "/static/js/787.7bf2b23b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c90136ba.css",
+    "static/js/main.2547c2db.js"
+  ]
+}
