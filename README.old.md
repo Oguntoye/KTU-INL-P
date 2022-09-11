@@ -1,0 +1,1 @@
+# law-society-of-ghana-admin

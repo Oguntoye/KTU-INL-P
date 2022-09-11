@@ -1,0 +1,15 @@
+export const universities = [
+  "Ghana School Of Law",
+  "Wisconsin International University College Faculty Of Law",
+  "University of Ghana School Of Law",
+  "UPSA Bachelor Of Law LLB",
+  "Mountcrest University College Faculty Of Law",
+  "Gimpa Faculty OF Law",
+  "UCC Faculty Of Law",
+  "Knust Faculty Of Law",
+  "Central University College Faculty Of Law",
+  "Zenith University College Faculty Of Law",
+  "Kings University College Faculty Of Law",
+  "Lancaster University Ghana Faculty Of Law",
+  "Ghana Institute of Advanced Legal Studies",
+];
