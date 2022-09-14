@@ -66,14 +66,23 @@ const Landing = () => {
         //   setError(request?.message || "An error occured!");
         // }
 
+
         login({
             "firstname": "Jane",
             "lastname": "Doe",
-            "emailaddress": "janedoe@yahoo.com",
+            "emailaddress": e.target[0].value,
             "profilepicture": null,
             "userrole": 1,
             "forcechangepassword": true
         })
+
+        if(e.target[0].value=="justiceadade@gmail.com"){
+            localStorage.setItem("supervisor", "YES");
+        }
+        else{
+            localStorage.setItem("supervisor", "NO");
+        }
+
         setLoading(false);
   };
 

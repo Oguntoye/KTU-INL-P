@@ -64,6 +64,12 @@ const MenuButtons = ({ navOpen, page, setNavOpen }) => {
             </RowDivSpace>
             <RowDivSpace
                 style={{ fontSize: 14, marginTop: 20, cursor: "pointer" }}
+                onClick={() => direct("/dashboard/internshipvideo")}
+            >
+                Video Scheduling
+            </RowDivSpace>
+            <RowDivSpace
+                style={{ fontSize: 14, marginTop: 20, cursor: "pointer" }}
                 // onClick={() => direct("/dashboard/pendingregistration")}
             >
                 Internship Report Grading

@@ -123,18 +123,18 @@ const InternshipDuration = () => {
                 ref={formRef}
             >
 
-            Internship Code *
+            Internship Title *
             <FormInput
                 type="text"
                 required
-                placeholder="enter code"
+                placeholder="enter title"
                 hidden={false}
                 style={{ marginBottom: 30 }}
                 name="internshipcode"
             />
            
 
-           Created by *
+           {/* Created by *
             <FormInput
                 type="text"
                 required
@@ -142,7 +142,7 @@ const InternshipDuration = () => {
                 hidden={false}
                 style={{ marginBottom: 30 }}
                 name="createdby"
-            />
+            /> */}
 
             Start date *
             <FormInput
@@ -162,7 +162,7 @@ const InternshipDuration = () => {
                 style={{ marginBottom: 30 }}
             />
 
-            Internship Status *
+            {/* Internship Status *
             <DataListInput
                 style={{ marginBottom: 20 }}
                 required
@@ -172,7 +172,7 @@ const InternshipDuration = () => {
                 <option value="" disabled selected>select type</option>
                 <option value={"AD"}>Active</option>
                 <option value={"SL"}>Completed</option>
-            </DataListInput>
+            </DataListInput> */}
 
 
             {duesLoad ? (

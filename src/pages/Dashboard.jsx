@@ -12,6 +12,7 @@ import {
 import { useAuth } from "../context/AuthProvider";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./Dashboard/Home";
+import SupervisorHome from "./Dashboard/SupervisorHome";
 import DashNotFound from "./Dashboard/DashNotFound";
 import MenuButtons from "../components/Dashboard/MenuButtons";
 import PendingRegistration from "./Dashboard/PendingRegistration";
@@ -25,6 +26,7 @@ import PaindPendingRegistrations from "./Dashboard/PaindPendingRegistrations";
 import InternshipDuration from "./Dashboard/InternshipDuration";
 import InternshipCompanies from "./Dashboard/InternshipCompanies";
 import InternshipRequests from "./Dashboard/InternshipRequests";
+import InternshipVideoSchedule from "./Dashboard/InternshipVideoSchedule";
 
 const Dashboard = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -62,10 +64,12 @@ const Dashboard = () => {
                 </RowDivSpace>
                 
                 <Routes>
-                    <Route path="/" element={<Home />} />
+                    {/* <Route path="/" element={<Home />} /> */}
+                    <Route path="/" element={localStorage.getItem("supervisor") == "YES" ? <SupervisorHome /> : <Home />} />
                     <Route path="/internshipdurarion" element={<InternshipDuration />} />
                     <Route path="/internshipcompanies" element={<InternshipCompanies />} />
                     <Route path="/internshiprequests" element={<InternshipRequests />} />
+                    <Route path="/internshipvideo" element={<InternshipVideoSchedule />} />
                     <Route path="*" element={<DashNotFound />} />
 
 

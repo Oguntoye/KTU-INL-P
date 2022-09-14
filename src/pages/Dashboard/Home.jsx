@@ -139,7 +139,7 @@ const Home = () => {
                         </div>
                         <div style={{ width: 50, height: 50 }}>
                             <CircularProgressbar
-                                value={"3/4"}
+                                value={60}
                                 si
                                 text={`60%`}
                                 styles={{
@@ -196,21 +196,18 @@ const Home = () => {
                         </div>
                         <div style={{ width: 50, height: 50 }}>
                             <CircularProgressbar
-                            value={"200"}
-                            si
-                            text={`100%`}
-                            styles={{
-                                path: {
-                                // Path color
-                                stroke: colors.primary,
-                                },
-                                text: {
-                                // Text color
-                                fill: "black",
-                                // Text size
-                                fontSize: "16px",
-                                },
-                            }}
+                                value={"200"}
+                                si
+                                text={`100%`}
+                                styles={{
+                                    path: {
+                                        stroke: colors.primary,
+                                    },
+                                    text: {
+                                        fill: "black",
+                                        fontSize: "16px",
+                                    },
+                                }}
                             />
                         </div>
                         </span>
@@ -251,22 +248,22 @@ const Home = () => {
                         >
                         Self Source Placement
                         </p>
-                        <VscAccount size={30} />
+                        <VscAccount color="rgb(59, 105, 197)" size={30} />
                     </div>
                     <div style={{ width: 50, height: 50 }}>
                         <CircularProgressbar
-                        value={0}
-                        si
-                        text={`20%`}
-                        styles={{
-                            path: {
-                                stroke: colors.primary,
-                            },
-                            text: {
-                                fill: "black",
-                                fontSize: "16px",
-                            },
-                        }}
+                            value={20}
+                            si
+                            text={`20%`}
+                            styles={{
+                                path: {
+                                    stroke: `rgb(59, 105, 197)`,
+                                },
+                                text: {
+                                    fill: "black",
+                                    fontSize: "16px",
+                                },
+                            }}
                         />
                     </div>
                     </span>
@@ -307,7 +304,7 @@ const Home = () => {
 
                         <div style={{ width: 50, height: 50 }}>
                             <CircularProgressbar
-                                value={30}
+                                value={35}
                                 si
                                 text={`35%`}
                                 styles={{
@@ -349,9 +346,10 @@ const Home = () => {
                     <Chart
                         chartType="PieChart"
                         data={[
-                            ["Payments", "Per amount"],
+                            ["Self Source", "Per amount"],
                             ["Liaison Office Placement", 20],
-                            ["Department Placement", 80],
+                            ["Department Placement", 50],
+                            ["Self Source Placement", 30],
                         ]}
                         options={{
                             title: "",
@@ -372,7 +370,7 @@ const Home = () => {
                             marginBottom: 25,
                         }}
                     >---</p>
-                    <h2>100</h2>
+                    <h2>200</h2>
                     <p
                         style={{
                             fontSize: 10,
@@ -406,18 +404,18 @@ const Home = () => {
                             >
                                 Liaison Office Placement
                             </p>
-                            <h1 style={{fontSize: 20}}>20</h1>
+                            <h1 style={{fontSize: 20}}>100/200</h1>
                         </div>
 
                         <div
                             style={{
                                 padding: "10px 15px",
                                 borderRadius: 10,
-                                backgroundColor: "#4065C5",
+                                backgroundColor: "rgb(204, 70, 39)",
                                 color: "white",
                             }}
                         >
-                            {"100"}%
+                            {"50"}%
                         </div>
                     </span>
                     </HomeCardContainer>
@@ -444,18 +442,18 @@ const Home = () => {
                                 >
                                     Department Placement
                                 </p>
-                                <h1 style={{fontSize: 20}}>80</h1>
+                                <h1 style={{fontSize: 20}}>60/200</h1>
                             </div>
 
                             <div
                                 style={{
                                     padding: "10px 15px",
                                     borderRadius: 10,
-                                    backgroundColor: "#4065C5",
+                                    backgroundColor: "rgb(242, 156, 56)",
                                     color: "white",
                                 }}
                                 >
-                                {"100"}%
+                                {"30"}%
                             </div>
                         </span>
                     </HomeCardContainer>

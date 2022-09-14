@@ -157,8 +157,6 @@ export const IconDashLogoutNav = styled(BiPowerOff)`
 export const DashboardSelectSection = styled.div`
   flex: 0.15;
   background-color: #f8f8fa;
-  display: flex;
-  flex-direction: column;
   padding: 15px;
   overflow: hidden;
   overflow-y: scroll;

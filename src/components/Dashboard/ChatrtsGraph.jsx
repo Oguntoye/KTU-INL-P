@@ -7,19 +7,18 @@ export const data = [
       "Student Requests",
       "Opportunities",
     ],
-    [1, 37.8, 80.8],
-    [2, 30.9, 69.5],
-    [3, 25.4, 57],
-    [4, 11.7, 18.8],
-    [5, 11.9, 17.6],
-    [6, 8.8, 13.6],
-    [7, 7.6, 12.3],
+    [1, 10, 20],
+    [2, 20, 10],
+    [3, 30, 35],
+    [4, 40, 60],
+    [5, 55, 20],
+    [6, 90, 50]
 ];
 
 export const options = {
   chart: {
     title: "Intership Opportunities",
-    subtitle: "in days for the past week",
+    subtitle: "in month for the past six months",
   },
 };
 
