@@ -80,25 +80,25 @@ const MenuButtons = ({ navOpen, page, setNavOpen }) => {
             <>
             <RowDivSpace
                 style={{ fontSize: 14, marginTop: 20, cursor: "pointer" }}
-                // onClick={() => direct("/dashboard/membermanagement")}
+                onClick={() => direct("/dashboard/organizationai")}
             >
                 Organization (Active & Inactive)
             </RowDivSpace>
             <RowDivSpace
                 style={{ fontSize: 14, marginTop: 20, cursor: "pointer" }}
-                // onClick={() => direct("/dashboard/dues")}
+                onClick={() => direct("/dashboard/internshipopportunities")}
             >
                 Internship Opportunities
             </RowDivSpace>
             <RowDivSpace
                 style={{ fontSize: 14, marginTop: 20, cursor: "pointer" }}
-                // onClick={() => direct("/dashboard/dues")}
+                onClick={() => direct("/dashboard/students")}
             >
                 Students
             </RowDivSpace>
             <RowDivSpace
                 style={{ fontSize: 14, marginTop: 20, cursor: "pointer" }}
-                // onClick={() => direct("/dashboard/dues")}
+                onClick={() => direct("/dashboard/supervisors")}
             >
                 University Supervisors
             </RowDivSpace>

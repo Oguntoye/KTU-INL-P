@@ -19,7 +19,7 @@ export const PendingList = styled.li`
 `;
 
 export const PendingTableHeader = styled.li`
-  background-color: #1D143A;
+  background-color: #1B164E;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 0.03em;

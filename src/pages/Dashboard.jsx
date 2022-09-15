@@ -27,6 +27,10 @@ import InternshipDuration from "./Dashboard/InternshipDuration";
 import InternshipCompanies from "./Dashboard/InternshipCompanies";
 import InternshipRequests from "./Dashboard/InternshipRequests";
 import InternshipVideoSchedule from "./Dashboard/InternshipVideoSchedule";
+import OrganizationsAI from "./Dashboard/OrganizationsAI";
+import InternshipOpportunities from "./Dashboard/InternshipOpportunities";
+import Students from "./Dashboard/Students";
+import Supervisors from "./Dashboard/Supervisors";
 
 const Dashboard = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -65,15 +69,18 @@ const Dashboard = () => {
                 
                 <Routes>
                     {/* <Route path="/" element={<Home />} /> */}
+
                     <Route path="/" element={localStorage.getItem("supervisor") == "YES" ? <SupervisorHome /> : <Home />} />
                     <Route path="/internshipdurarion" element={<InternshipDuration />} />
                     <Route path="/internshipcompanies" element={<InternshipCompanies />} />
                     <Route path="/internshiprequests" element={<InternshipRequests />} />
                     <Route path="/internshipvideo" element={<InternshipVideoSchedule />} />
+                    <Route path="/organizationai" element={<OrganizationsAI />} />
+                    <Route path="/internshipopportunities" element={<InternshipOpportunities />} />
+                    <Route path="/students" element={<Students />} />
+                    <Route path="/supervisors" element={<Supervisors />} />
                     <Route path="*" element={<DashNotFound />} />
-
-
-
+                    
                     {/* <Route path="/pendingregistration" element={<PendingRegistration />} />
                     <Route path="/paidregistration" element={<PaindPendingRegistrations />} />
                     <Route path="/communication" element={<Communication />} />
