@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/KTU-INL-P/static/css/main.771a2bd6.css",
-    "main.js": "/KTU-INL-P/static/js/main.f5c792c1.js",
+    "main.css": "/KTU-INL-P/static/css/main.66433925.css",
+    "main.js": "/KTU-INL-P/static/js/main.fada00de.js",
     "static/js/787.7bf2b23b.chunk.js": "/KTU-INL-P/static/js/787.7bf2b23b.chunk.js",
+    "static/media/landingbackground.jpg": "/KTU-INL-P/static/media/landingbackground.e6f1cf513687313e3f7f.jpg",
     "static/media/Lexend-VariableFont_wght.ttf": "/KTU-INL-P/static/media/Lexend-VariableFont_wght.ca595aeaae636593c5fe.ttf",
     "static/media/logo-circular.png": "/KTU-INL-P/static/media/logo-circular.95d7d196e88a14d99a0d.png",
     "service-worker.js": "/KTU-INL-P/service-worker.js",
-    "static/media/landingbackground.jpg": "/KTU-INL-P/static/media/landingbackground.c3184854536b5599edc0.jpg",
     "static/media/meet.jpeg": "/KTU-INL-P/static/media/meet.0ae1be5f4a3c724e38ae.jpeg",
     "index.html": "/KTU-INL-P/index.html",
-    "main.771a2bd6.css.map": "/KTU-INL-P/static/css/main.771a2bd6.css.map",
-    "main.f5c792c1.js.map": "/KTU-INL-P/static/js/main.f5c792c1.js.map",
+    "main.66433925.css.map": "/KTU-INL-P/static/css/main.66433925.css.map",
+    "main.fada00de.js.map": "/KTU-INL-P/static/js/main.fada00de.js.map",
     "787.7bf2b23b.chunk.js.map": "/KTU-INL-P/static/js/787.7bf2b23b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.771a2bd6.css",
-    "static/js/main.f5c792c1.js"
+    "static/css/main.66433925.css",
+    "static/js/main.fada00de.js"
   ]
 }
